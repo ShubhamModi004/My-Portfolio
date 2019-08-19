@@ -1,0 +1,108 @@
+
+
+/* Just to center things */
+.center {
+  width: 30px;
+}
+
+/* The element to hover over */
+.dots {
+  cursor: pointer;
+  /* display: inline-block; */
+  position: relative;
+  text-align: center;
+}
+.dots .popover {
+    background-color: rgba(255, 255, 255, 0.85);
+    border-radius: 5px;
+    bottom: -42px;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.4);
+    color: #0F0F0F;
+    display: none;
+    font-size: 12px;
+    font-family: "Helvetica", sans-serif;
+    left: -16rem;
+    padding: 7px 10px;
+    position: absolute;
+    width: 20rem;
+    z-index: 4;
+    top: 2.5rem;
+    height: 10rem;
+}
+.dots .popover:before {
+  border-top: 7px solid rgba(255, 255, 255, 0.85);
+  border-right: 7px solid transparent;
+  border-left: 7px solid transparent;
+  bottom: -7px;
+  content: "";
+  display: block;
+  left: -50%;
+  margin-left: -7px;
+  position: absolute;
+}
+.dots:hover .popover {
+  display: block;
+  -webkit-animation: fade-in 0.3s linear 1, move-up 0.3s linear 1;
+  -moz-animation: fade-in 0.3s linear 1, move-up 0.3s linear 1;
+  -ms-animation: fade-in 0.3s linear 1, move-up 0.3s linear 1;
+}
+.Link-popover{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.Link-popover > a{
+    padding-top: 1rem;
+    padding-left: 0.5rem; 
+}
+
+@-webkit-keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-moz-keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-ms-keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes move-up {
+  from {
+    bottom:30px;
+  }
+  to {
+    bottom: 20rem;
+  }
+}
+@-moz-keyframes move-up {
+  from {
+    bottom: 30px;
+  }
+  to {
+    bottom: 20rem;
+  }
+}
+@-ms-keyframes move-up {
+  from {
+    bottom: 30px;
+  }
+  to {
+    bottom: 20rem;
+  }
+}

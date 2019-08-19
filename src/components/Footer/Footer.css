@@ -1,0 +1,124 @@
+.footer-buttons{
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 747px){
+    .footer-buttons{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.footer-buttons > div{
+    margin: 2rem;
+}
+
+@media only screen and (max-width: 447px){
+    .footer-buttons > div{
+        margin: 0.5rem;
+    }
+
+}
+
+.footer-header{
+    font-weight: 200;
+    text-align: center;
+}
+@media only screen and (max-width: 447px){
+    .footer-header{
+        font-size: 1.5rem;
+    }
+
+}
+
+.button-fill-yellow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    border: 3px solid #FFCB4A;
+    border-radius: 3rem;
+    background-color: #FFFAEE;
+    margin-top: 2rem;
+    width: 20rem;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.button-fill-yellow:hover{
+    background-color: rgba(255, 201, 74, 0.42);
+}
+.button-fill-yellow:hover h2{
+    letter-spacing: 0.01rem;
+    color: #fff;
+}
+
+
+.button-fill-yellow h2{
+    font-size: 1.2rem;
+    font-weight: 200;
+    padding-left: 1rem;
+    margin-bottom: 0;
+    justify-content: flex-end;
+    margin-top: 2px;
+    color: #200E44;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.case{
+    width: 1.7rem;
+}
+
+
+
+.button-fill-blue{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    border: 3px solid #4355FF;
+    border-radius: 3rem;
+    width: 20rem;
+    background-color: #EEEFFF;
+    margin-top: 2rem;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.button-fill-blue:hover{
+    background-color: rgba(67, 86, 255, 0.42);
+}
+.button-fill-blue:hover h2{
+    letter-spacing: 0.01rem;
+    color: #fff;
+}
+
+
+.button-fill-blue h2{
+    font-size: 1.2rem;
+    font-weight: 200;
+    padding-left: 1rem;
+    margin-bottom: 0;
+    justify-content: flex-end;
+    margin-top: 2px;
+    color: #200E44;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.case{
+    width: 1.7rem;
+}
+

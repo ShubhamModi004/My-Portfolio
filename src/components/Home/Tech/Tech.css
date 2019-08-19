@@ -1,0 +1,148 @@
+.box{
+    background-color: #f7f6f9;
+    position: absolute;
+    padding: 1rem;
+    border-radius: 0.3rem;
+    margin-top: -7rem;
+    z-index: 2;
+    width: 90%;
+    height: 14rem;
+    padding: inherit;
+}
+
+
+
+@media only screen and (max-width: 747px){
+    .box{
+        height: 16rem;
+        margin-top: -8rem;
+    }
+}
+
+.box p{
+    font-size: 1.55rem; 
+    margin-top: 3.5rem;
+    color: #200E44; 
+    font-weight: 300; 
+    height: 7rem;
+}
+
+@media only screen and (max-width: 747px){
+    .box p{
+        font-size: 1.22rem; 
+        margin-top: 2rem;
+        padding: 1rem;
+        color: #200E44; 
+        font-weight: 300; 
+        height: 50%;
+    }
+}
+
+
+.tech-inner{
+    padding-top: 10rem;
+    padding-bottom: 2rem;
+    color: #fff;
+}
+
+.tech-inner h2{
+    color: #fff;
+    font-weight: 200;
+    margin-top: 2rem;
+}
+@media only screen and (max-width: 747px){
+    .tech-inner h2{
+        text-align: center;
+    }
+}
+
+.Make{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    color: #fff;
+    text-align: center;
+}
+
+@media only screen and (max-width: 747px){
+    .Make{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 2rem;
+        margin-bottom: 5rem;
+        color: #fff;
+        text-align: center;
+    }
+    .makeIcons{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2.5rem;
+    }
+    .adjust{
+        margin-top: 2.5rem;
+    }
+}
+
+.Make h1{
+    font-size: 1.3rem;
+    font-weight: 100;
+    padding-top: 1rem;
+    opacity: 0.80;
+}
+
+
+.tech-stack{
+    padding-bottom: 5rem;
+}
+@media only screen and (max-width: 747px){
+    .tech-stack{
+        text-align: center;
+    }
+}
+
+.tech-stack h2{
+    color: #fff;
+    font-weight: 200;
+}
+
+.stack{
+    display: flex;
+}
+
+@media only screen and (max-width: 767px){
+    .stack{
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+.stack h1{
+    font-size: 1.3rem;
+    font-weight: 100;
+    padding-top: 1rem;
+    opacity: 0.60;
+    color: #fff;
+    margin-right: 6rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    height: 3.2rem;
+}
+
+
+
+@media only screen and (max-width: 747px){
+    .stack h1{
+        font-size: 1.1rem;
+        margin-right: 1rem;
+    }
+}
+
+.active{
+    border-bottom: 3.3px solid #FFCB4A;
+    opacity: 1 !important;
+}

@@ -1,0 +1,29 @@
+.boxcontainer{
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+
+@media only screen and (max-width: 747px){
+    .boxcontainer {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+    .mobile{
+      display: none !important;
+    }
+}
+@media only screen and (max-width: 447px){
+    .boxcontainer {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+
+a{
+  color: #000 !important;
+}
+
+a:hover{
+  text-decoration: none !important;
+}
