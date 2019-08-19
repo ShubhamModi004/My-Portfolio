@@ -7,11 +7,11 @@
 
 /* The element to hover over */
 .dots {
-  cursor: pointer;
-  /* display: inline-block; */
-  width: 5rem;
-  position: relative;
-  text-align: center;
+    cursor: pointer;
+    /* display: inline-block; */
+    width: 5rem;
+    position: relative;
+    text-align: center;
 }
 .dots .popover {
     background-color: rgba(255, 255, 255, 0.85);
@@ -22,7 +22,7 @@
     display: none;
     font-size: 12px;
     font-family: "Helvetica", sans-serif;
-    left: -16rem;
+    left: -12rem;
     padding: 7px 10px;
     position: absolute;
     width: 20rem;
