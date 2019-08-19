@@ -54,6 +54,16 @@
   font-weight: 200;
 }
 
+@media only screen and (max-width: 747px){
+    .form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+        color: #200E44;
+        opacity: 0.27; /* Firefox */
+        padding: 0.5rem;
+        font-size: 0.8rem;
+        font-weight: 200;
+        }
+}
+
 .form-control[type=text], select {
   color: #200E44;
   padding: 1rem 1.5rem;
