@@ -9,6 +9,7 @@
 .dots {
   cursor: pointer;
   /* display: inline-block; */
+  width: 5rem;
   position: relative;
   text-align: center;
 }
