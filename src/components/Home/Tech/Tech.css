@@ -26,6 +26,12 @@
     font-weight: 300; 
     height: 7rem;
 }
+@media only screen and (max-width: 999px){
+    .box p{
+        font-size: 1.3rem; 
+        margin-top: 3.5rem;
+    }
+}
 
 @media only screen and (max-width: 747px){
     .box p{

@@ -23,12 +23,12 @@
     font-size: 12px;
     font-family: "Helvetica", sans-serif;
     left: -12rem;
-    padding: 7px 10px;
+    padding: 2rem 1rem;
     position: absolute;
-    width: 20rem;
+    width: 28rem;
     z-index: 4;
     top: 2.5rem;
-    height: 10rem;
+    height: fit-content;
 }
 .dots .popover:before {
   border-top: 7px solid rgba(255, 255, 255, 0.85);

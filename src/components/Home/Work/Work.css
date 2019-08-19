@@ -91,7 +91,7 @@
         padding-left: 0rem;
     }
     .first > div:nth-child(1) {
-        width: 80%;
+        width: 70%;
     }
     .second{
         align-items: flex-start;
@@ -100,7 +100,7 @@
         padding-right: 0rem;
     }
     .second > div:nth-child(1) {
-        width: 80%;
+        width: 70%;
     }
     
 }

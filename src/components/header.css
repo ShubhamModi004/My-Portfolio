@@ -1,3 +1,5 @@
+
+
 .headerStyle {
     display: flex;
     justify-content: space-between;
@@ -52,7 +54,7 @@
 }
 
 .dot{
-    width: 0.25rem;
+    width: 2.25rem;
     height: 0.25rem;
     padding: 1px;
     border-radius: 1.5px;

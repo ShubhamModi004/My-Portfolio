@@ -18,22 +18,22 @@ const Popover = props => {
             <span class="popover above">
                 <div className="Link-popover">
                     <Link to={'/CaseStudy'} className="d-flex">
-                        <div style={{ width: '1.3rem' }}>
+                        <div style={{ width: '2rem' }}>
                             <Case />
                         </div>
-                        <p className="Link">Case Studies</p>
+                        <p className="Link" style={{ fontSize: '1.3rem' }}>Case Studies</p>
                     </Link>
                     <Link className="d-flex">
-                        <div style={{ width: '1.6rem' }}>
+                        <div style={{ width: '2.3rem' }}>
                             <Resume />
                         </div>
-                        <p className="Link">Download Resume</p>
+                        <p className="Link" style={{ fontSize: '1.3rem' }}>Download Resume</p>
                     </Link>
                     <Link to={'/Contact'} className="d-flex">
-                        <div style={{ width: '1.2rem', marginTop: '3px' }}>
+                        <div style={{ width: '1.9rem', marginTop: '3px' }}>
                             <Contact />
                         </div>
-                        <p className="Link">Contact me</p>
+                        <p className="Link" style={{ fontSize: '1.3rem' }}>Contact me</p>
                     </Link>
                 </div>
 

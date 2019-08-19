@@ -20,6 +20,7 @@
   font-size: inherit;
   font-family: inherit;
   margin-top: 0.4rem;
+  
 }
 .button.learn-more {
   width: 10rem;
@@ -35,6 +36,8 @@
     border-radius: 1.625rem;
     display: flex;
     align-items: center;
+   box-shadow: 3px 6px 5px #80808052;
+    z-index: 2;
 }
 .button .icon{
     margin-left: 1rem;
@@ -82,6 +85,7 @@ button.learn-more .circle .icon.arrow::before {
   line-height: 1.6;
   text-align: center;
   text-transform: uppercase;
+  z-index: 3;
 }
 .button:hover .circle {
   width: 100%;
