@@ -20,8 +20,8 @@ const index = props => {
             <Fade delay={150}>
                 <h1 style={styles.subHeader}>
                     A full-stack developer who focuses on developing<br />
-                    intuitive and aesthetically pleasing interfaces
-            </h1>
+                    intuitive and aesthetically pleasing interfaces<br />
+                </h1>
             </Fade>
             <Fade delay={180}>
                 <div id="container">
