@@ -27,12 +27,12 @@ const Header = ({ siteTitle }) => (
           </div>
           <p className="Link">Case Studies</p>
         </Link>
-        <Link className="d-flex linkWrapperDownload">
+        <a href="./cv/Cv.pdf" download className="d-flex linkWrapperDownload">
           <div style={{ width: '1.6rem' }}>
             <Resume />
           </div>
           <p className="Link">Download Resume</p>
-        </Link>
+        </a>
         <Link to={'/Contact'} className="d-flex linkWrapperContact">
           <div style={{ width: '1.2rem', marginTop: '3px' }}>
             <Contact />

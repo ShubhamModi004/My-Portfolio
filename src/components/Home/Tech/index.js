@@ -7,6 +7,8 @@ import Webapps from '../../common/Webapps';
 import Ios from '../../common/Ios';
 import Android from '../../common/Android';
 
+import Fade from 'react-reveal/Fade';
+
 const index = props => {
     const [framework, setFramework] = useState(true);
     const [frontend, setFrontend] = useState(false);
@@ -73,51 +75,61 @@ const index = props => {
                 }}
             >
                 <div className="container box">
-                    <p>
-                        I have an OCD for tidy lines of codes,<br />
-                        obsession towards making interfaces look and function well,<br />
-                        and a willingness to always deliver more than asked.
-                    </p>
+                    <Fade bottom delay={800}>
+                        <p>
+                            I have an OCD for tidy lines of codes,<br />
+                            obsession towards making interfaces look and function well,<br />
+                            and a willingness to always deliver more than asked.
+                        </p>
+                    </Fade>
                     <div className="mobile" style={styles.Computer}>
                         <Computer />
                     </div>
                 </div>
                 <div className="tech-inner">
-                    <h2>What I Love to make</h2>
+                    <Fade delay={900}><h2>What I Love to make</h2></Fade>
                     <div className="Make">
-                        <div className="makeIcons">
-                            <div style={{ width: '7rem' }}>
-                                <Website />
+                        <Fade delay={1000}>
+                            <div className="makeIcons">
+                                <div style={{ width: '7rem' }}>
+                                    <Website />
+                                </div>
+                                <h1>Website</h1>
                             </div>
-                            <h1>Website</h1>
-                        </div>
-                        <div className="makeIcons">
-                            <div style={{ width: '6rem' }}>
-                                <Webapps />
+                        </Fade>
+                        <Fade delay={1000}>
+                            <div className="makeIcons">
+                                <div style={{ width: '6rem' }}>
+                                    <Webapps />
+                                </div>
+                                <h1>Web Apps</h1>
                             </div>
-                            <h1>Web Apps</h1>
-                        </div>
-                        <div className="makeIcons">
-                            <div style={{ width: '6rem' }}>
-                                <Ios />
+                        </Fade>
+                        <Fade delay={1000}>
+                            <div className="makeIcons">
+                                <div style={{ width: '6rem' }}>
+                                    <Ios />
+                                </div>
+                                <h1>Ios Apps</h1>
                             </div>
-                            <h1>Ios Apps</h1>
-                        </div>
-                        <div className="adjust" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>
-                            <div style={{ width: '5.7rem' }}>
-                                <Android />
+                        </Fade>
+                        <Fade delay={1000}>
+                            <div className="adjust" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>
+                                <div style={{ width: '5.7rem' }}>
+                                    <Android />
+                                </div>
+                                <h1>Android Apps</h1>
                             </div>
-                            <h1>Android Apps</h1>
-                        </div>
+                        </Fade>
                     </div>
                 </div>
                 <div className="tech-stack">
-                    <h2>My Stack of Tech</h2>
+                    <Fade delay={800}><h2>My Stack of Tech</h2></Fade>
                     <div className="stack">
-                        <h1 onClick={() => selectStack('framework')} className={framework && 'active'}>Framework</h1>
-                        <h1 onClick={() => selectStack('frontend')} className={frontend && 'active'}>Front-End</h1>
-                        <h1 onClick={() => selectStack('backend')} className={backend && 'active'}>Back-End</h1>
-                        <h1 onClick={() => selectStack('platform')} className={platform && 'active'}>Platform</h1>
+                        <Fade delay={1000}><h1 onClick={() => selectStack('framework')} className={framework && 'active'}>Framework</h1></Fade>
+                        <Fade delay={1000}><h1 onClick={() => selectStack('frontend')} className={frontend && 'active'}>Front-End</h1></Fade>
+                        <Fade delay={1000}><h1 onClick={() => selectStack('backend')} className={backend && 'active'}>Back-End</h1></Fade>
+                        <Fade delay={1000}><h1 onClick={() => selectStack('platform')} className={platform && 'active'}>Platform</h1></Fade>
                     </div>
                     {renderStack()}
                 </div>

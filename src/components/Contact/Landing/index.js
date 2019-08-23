@@ -4,6 +4,7 @@ import Warning from '../../common/Warning';
 import Biceps from '../../common/Biceps';
 import Mail from '../../common/Mail';
 import Mobile from '../../common/Mobile';
+import Fade from 'react-reveal/Fade';
 
 import './Contact.css';
 
@@ -14,14 +15,13 @@ const index = props => {
             className="container boxcontainer"
             style={{ marginBottom: '7rem' }}
         >
-            <h1 style={styles.header}>Get in touch</h1>
+            <Fade delay={800}><h1 style={styles.header}>Get in touch</h1></Fade>
             <h1 style={styles.subHeader}>
                 Let's get connected. Please fill out this<br />
                 simple form.
             </h1>
             <div className="form">
-                {/* <form action="https://formspree.io/shubhammodi004@gmail.com" method="POST" class="ContactUsForm"> */}
-                <form>
+                <form action="https://formspree.io/shubhammodi004@gmail.com" method="POST" class="ContactUsForm">
                     <div class="form-groups">
                         <div class="form-group">
                             <input type="text" class="form-control" name="name" placeholder="Name / Company" />
@@ -57,13 +57,13 @@ const index = props => {
                         <div className="mail" style={{ width: '2rem', paddingTop: '1rem', marginRight: '0.5rem' }}>
                             <Mail />
                         </div>
-                        <a>shubhammodi004@gmail.com</a>
+                        <a href="mailto:shubhammodi04@gmail.com">shubhammodi004@gmail.com</a>
                     </div>
                     <div className="contact-box-desktop-section">
                         <div className="mobile-in" style={{ width: '1.5rem', paddingTop: '1rem', marginRight: '0.5rem' }}>
                             <Mobile />
                         </div>
-                        <a>8975685906</a>
+                        <a href="tel:+918975685906">8975685906</a>
                     </div>
                 </div>
             </div>

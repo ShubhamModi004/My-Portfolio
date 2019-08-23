@@ -122,3 +122,19 @@
     width: 1.7rem;
 }
 
+
+.footer-end{
+    background: #200d44;
+    text-align: center;
+    color: #fff !important;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+}
+
+.footer-end h7>a{
+    cursor: pointer;
+    color: #fff !important;
+}

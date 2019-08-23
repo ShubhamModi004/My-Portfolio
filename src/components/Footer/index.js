@@ -7,35 +7,46 @@ import './Footer.css';
 import Case from '../common/Case';
 import Contact from '../common/Contact';
 import Resume from '../common/Resume';
+import Fade from 'react-reveal/Fade';
+
 
 const index = props => {
     return (
-        <div className="boxcontainer" style={{
-            backgroundColor: '#F7F6F9',
-            paddingTop: '3rem',
-            paddingBottom: '3rem',
-            borderTopLeftRadius: '4rem',
-            borderTopRightRadius: '4rem',
-        }}>
-            <h1 className="footer-header">Get to know me better</h1>
-            <div className="footer-buttons">
-                <div className="button-area">
-                    <div className="button-fill-yellow">
-                        <div className="case">
-                            <Resume />
+        <div>
+            <div className="boxcontainer" style={{
+                backgroundColor: '#F7F6F9',
+                paddingTop: '3rem',
+                paddingBottom: '3rem',
+                borderTopLeftRadius: '4rem',
+                borderTopRightRadius: '4rem',
+            }}>
+                <h1 className="footer-header">Get to know me better</h1>
+                <div className="footer-buttons">
+                    <Fade cascade>
+                        <div className="button-area">
+                            <div className="button-fill-yellow">
+                                <div className="case">
+                                    <Resume />
+                                </div>
+                                <h2>Download my Resume</h2>
+                            </div>
                         </div>
-                        <h2>Download my Resume</h2>
-                    </div>
+                    </Fade>
+                    <Fade cascade>
+                        <div className="button-area">
+                            <div className="button-fill-blue">
+                                <div className="case" style={{ width: '1.5rem' }}>
+                                    <Contact />
+                                </div>
+                                <h2>Get in touch</h2>
+                            </div>
+                        </div>
+                    </Fade>
                 </div>
 
-                <div className="button-area">
-                    <div className="button-fill-blue">
-                        <div className="case" style={{ width: '1.5rem' }}>
-                            <Contact />
-                        </div>
-                        <h2>Get in touch</h2>
-                    </div>
-                </div>
+            </div>
+            <div className="footer-end">
+                <h7>Designed by <a href="https://sohailminimalist.com">Sohail Mohammad</a></h7>
             </div>
         </div>
     )

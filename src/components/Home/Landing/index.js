@@ -1,6 +1,8 @@
 import React from 'react'
 
 import HireMe from '../../common/HireMe';
+// For the fade in effect;
+import Fade from 'react-reveal/Fade';
 
 import './Landing.css';
 
@@ -12,21 +14,25 @@ const index = props => {
                 marginBottom: '15rem'
             }}
         >
-            <h1 style={styles.header}>Hey, I'm Shubham Modi</h1>
-            <h1 style={styles.subHeader}>
-                A full-stack developer who focuses on developing<br />
-                intuitive and aesthetically pleasing interfaces
+            <Fade bottom duration={120}><h1 style={styles.header}>Hey, I'm Shubham Modi</h1></Fade>
+            <Fade delay={150}>
+                <h1 style={styles.subHeader}>
+                    A full-stack developer who focuses on developing<br />
+                    intuitive and aesthetically pleasing interfaces
             </h1>
-            <div id="container">
-                <button className="learn-more button">
-                    <div className="circle">
-                        <div style={{ width: '1.05rem' }} className="icon">
-                            <HireMe />
+            </Fade>
+            <Fade delay={180}>
+                <div id="container">
+                    <button className="learn-more button">
+                        <div className="circle">
+                            <div style={{ width: '1.05rem' }} className="icon">
+                                <HireMe />
+                            </div>
                         </div>
-                    </div>
-                    <p className="button-text">HIRE ME</p>
-                </button>
-            </div>
+                        <p className="button-text">HIRE ME</p>
+                    </button>
+                </div>
+            </Fade>
         </div>
     )
 }
