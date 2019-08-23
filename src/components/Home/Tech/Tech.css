@@ -124,6 +124,10 @@
     .stack{
         display: flex;
         justify-content: space-around;
+        overflow: auto;
+        white-space: nowrap;
+        margin: auto;
+        width: 90vw;
     }
 }
 

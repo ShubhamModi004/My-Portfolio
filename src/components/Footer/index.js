@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Link } from "gatsby"
 // import css
 import './Footer.css';
 
@@ -23,24 +23,28 @@ const index = props => {
                 <h1 className="footer-header">Get to know me better</h1>
                 <div className="footer-buttons">
                     <Fade cascade>
-                        <div className="button-area">
-                            <div className="button-fill-yellow">
-                                <div className="case">
-                                    <Resume />
+                        <a href="./cv/Cv.pdf" download>
+                            <div className="button-area">
+                                <div className="button-fill-yellow">
+                                    <div className="case">
+                                        <Resume />
+                                    </div>
+                                    <h2>Download my Resume</h2>
                                 </div>
-                                <h2>Download my Resume</h2>
                             </div>
-                        </div>
+                        </a>
                     </Fade>
                     <Fade cascade>
-                        <div className="button-area">
-                            <div className="button-fill-blue">
-                                <div className="case" style={{ width: '1.5rem' }}>
-                                    <Contact />
+                        <Link to={'/Contact'}>
+                            <div className="button-area">
+                                <div className="button-fill-blue">
+                                    <div className="case" style={{ width: '1.5rem' }}>
+                                        <Contact />
+                                    </div>
+                                    <h2>Get in touch</h2>
                                 </div>
-                                <h2>Get in touch</h2>
                             </div>
-                        </div>
+                        </Link>
                     </Fade>
                 </div>
 

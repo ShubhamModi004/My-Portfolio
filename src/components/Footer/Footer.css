@@ -1,6 +1,7 @@
 .footer-buttons{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 @media only screen and (max-width: 747px){

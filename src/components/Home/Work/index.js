@@ -1,6 +1,8 @@
 import React from 'react';
 import './Work.css';
 import Case from '../../common/Case';
+import { Link } from "gatsby"
+
 
 import Fade from 'react-reveal/Fade';
 
@@ -63,14 +65,16 @@ const index = props => {
                     </div>
                 </div>
                 <Fade cascade>
-                    <div className="button-area">
-                        <div className="button-fill-pink">
-                            <div className="case">
-                                <Case />
+                    <Link to={'/CaseStudy'}>
+                        <div className="button-area">
+                            <div className="button-fill-pink">
+                                <div className="case">
+                                    <Case />
+                                </div>
+                                <h2>View all my Case Studies</h2>
                             </div>
-                            <h2>View all my Case Studies</h2>
                         </div>
-                    </div>
+                    </Link>
                 </Fade>
             </div>
         </div>
