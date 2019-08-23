@@ -9,9 +9,15 @@ import Android from '../../common/Android';
 
 import Fade from 'react-reveal/Fade';
 
+// importing stack
+import Framework from './Framework';
+import Frontend from './Frontend';
+import Backend from './Backend';
+import Platform from './Platform';
+
 const index = props => {
-    const [framework, setFramework] = useState(true);
-    const [frontend, setFrontend] = useState(false);
+    const [framework, setFramework] = useState(false);
+    const [frontend, setFrontend] = useState(true);
     const [backend, setBackend] = useState(false);
     const [platform, setPlatform] = useState(false);
 
@@ -47,19 +53,19 @@ const index = props => {
     const renderStack = () => {
         if (framework) {
             return (
-                <div><h1>framework</h1></div>
+                <div><Framework /></div>
             )
         } else if (frontend) {
             return (
-                <div><h1>frontend</h1></div>
+                <div><Frontend /></div>
             )
         } else if (backend) {
             return (
-                <div><h1>backend</h1></div>
+                <div><Backend /></div>
             )
         } else if (platform) {
             return (
-                <div><h1>platform</h1></div>
+                <div><Platform /></div>
             )
         }
     }
@@ -126,9 +132,9 @@ const index = props => {
                 <div className="tech-stack">
                     <Fade delay={800}><h2>My Stack of Tech</h2></Fade>
                     <div className="stack">
-                        <Fade delay={1000}><h1 onClick={() => selectStack('framework')} className={framework && 'active'}>Framework</h1></Fade>
                         <Fade delay={1000}><h1 onClick={() => selectStack('frontend')} className={frontend && 'active'}>Front-End</h1></Fade>
                         <Fade delay={1000}><h1 onClick={() => selectStack('backend')} className={backend && 'active'}>Back-End</h1></Fade>
+                        <Fade delay={1000}><h1 onClick={() => selectStack('framework')} className={framework && 'active'}>Framework</h1></Fade>
                         <Fade delay={1000}><h1 onClick={() => selectStack('platform')} className={platform && 'active'}>Platform</h1></Fade>
                     </div>
                     {renderStack()}

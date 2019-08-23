@@ -1,0 +1,12 @@
+.cardStack{
+    width: 4rem;
+    height: 4rem;
+    justify-content: center;
+    align-items: center;
+    padding: 0.4rem;
+    display: flex;
+}
+
+.cardStack .gatsby-image-wrapper{
+    width: 90%;
+}

@@ -118,6 +118,8 @@
 
 .stack{
     display: flex;
+    overflow: auto;
+    white-space: nowrap;
 }
 
 @media only screen and (max-width: 767px){
@@ -127,7 +129,6 @@
         overflow: auto;
         white-space: nowrap;
         margin: auto;
-        width: 90vw;
     }
 }
 
