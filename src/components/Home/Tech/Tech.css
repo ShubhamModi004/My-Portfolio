@@ -125,7 +125,6 @@
 @media only screen and (max-width: 767px){
     .stack{
         display: flex;
-        justify-content: space-around;
         overflow: auto;
         white-space: nowrap;
         margin: auto;
