@@ -6,28 +6,38 @@ import Wordpress from '../../../common/Wordpress';
 import Octobercms from '../../../common/Octobercms';
 
 
+import Fade from 'react-reveal/Fade';
+
 const index = props => {
     return (
         <div className="row">
             <div className="col">
-                <div className="cardStack">
-                    <Androidstudio />
-                </div>
+                <Fade delay={100}>
+                    <div className="cardStack">
+                        <Androidstudio />
+                    </div>
+                </Fade>
             </div>
             <div className="col">
-                <div className="cardStack">
-                    <XCode />
-                </div>
+                <Fade delay={100}>
+                    <div className="cardStack">
+                        <XCode />
+                    </div>
+                </Fade>
             </div>
             <div className="col">
-                <div className="cardStack">
-                    <Wordpress />
-                </div>
+                <Fade delay={100}>
+                    <div className="cardStack">
+                        <Wordpress />
+                    </div>
+                </Fade>
             </div>
             <div className="col">
-                <div className="cardStack" style={{ width: '7rem' }}>
-                    <Octobercms />
-                </div>
+                <Fade delay={100}>
+                    <div className="cardStack" style={{ width: '7rem' }}>
+                        <Octobercms />
+                    </div>
+                </Fade>
             </div>
         </div>
     )

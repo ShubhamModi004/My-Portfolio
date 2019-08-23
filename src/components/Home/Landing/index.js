@@ -4,6 +4,8 @@ import HireMe from '../../common/HireMe';
 // For the fade in effect;
 import Fade from 'react-reveal/Fade';
 
+import { Link } from "gatsby"
+
 import './Landing.css';
 
 const index = props => {
@@ -23,14 +25,16 @@ const index = props => {
             </Fade>
             <Fade delay={180}>
                 <div id="container">
-                    <button className="learn-more button">
-                        <div className="circle">
-                            <div style={{ width: '1.05rem' }} className="icon">
-                                <HireMe />
+                    <Link to={'/Contact'}>
+                        <button className="learn-more button">
+                            <div className="circle">
+                                <div style={{ width: '1.05rem' }} className="icon">
+                                    <HireMe />
+                                </div>
                             </div>
-                        </div>
-                        <p className="button-text">HIRE ME</p>
-                    </button>
+                            <p className="button-text">HIRE ME</p>
+                        </button>
+                    </Link>
                 </div>
             </Fade>
         </div>

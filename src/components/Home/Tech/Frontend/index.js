@@ -9,43 +9,59 @@ import Js from '../../../common/Js';
 import Swift from '../../../common/Swift';
 
 
+import Fade from 'react-reveal/Fade';
+
 const index = props => {
     return (
         <div className="row">
             <div className="col">
-                <div className="cardStack">
-                    <Reactjs />
-                </div>
+                <Fade delay={100}>
+                    <div className="cardStack">
+                        <Reactjs />
+                    </div>
+                </Fade>
             </div>
             <div className="col">
-                <div className="cardStack">
-                    <Redux />
-                </div>
+                <Fade delay={100}>
+                    <div className="cardStack">
+                        <Redux />
+                    </div>
+                </Fade>
             </div>
             <div className="col">
-                <div className="cardStack">
-                    <Gatsby />
-                </div>
+                <Fade delay={100}>
+                    <div className="cardStack">
+                        <Gatsby />
+                    </div>
+                </Fade>
             </div>
             <div className="col">
-                <div className="cardStack">
-                    <Html5 />
-                </div>
+                <Fade delay={100}>
+                    <div className="cardStack">
+                        <Html5 />
+                    </div>
+                </Fade>
             </div>
             <div className="col">
-                <div className="cardStack">
-                    <Css3 />
-                </div>
+                <Fade delay={100}>
+                    <div className="cardStack">
+                        <Css3 />
+                    </div>
+                </Fade>
             </div>
             <div className="col">
-                <div className="cardStack">
-                    <Js />
-                </div>
+                <Fade delay={100}>
+                    <div className="cardStack">
+                        <Js />
+                    </div>
+                </Fade>
             </div>
             <div className="col">
-                <div className="cardStack">
-                    <Swift />
-                </div>
+                <Fade delay={100}>
+                    <div className="cardStack">
+                        <Swift />
+                    </div>
+                </Fade>
             </div>
         </div>
     )

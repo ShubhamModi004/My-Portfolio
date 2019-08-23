@@ -14,13 +14,14 @@ import Framework from './Framework';
 import Frontend from './Frontend';
 import Backend from './Backend';
 import Platform from './Platform';
+import DBMS from './DBMS';
 
 const index = props => {
     const [framework, setFramework] = useState(false);
     const [frontend, setFrontend] = useState(true);
     const [backend, setBackend] = useState(false);
     const [platform, setPlatform] = useState(false);
-
+    const [dbms, setDbms] = useState(false);
 
 
     const selectStack = (item) => {
@@ -34,16 +35,26 @@ const index = props => {
             setFrontend(true);
             setBackend(false);
             setPlatform(false);
+            setDbms(false);
         } else if (item === 'backend') {
             setFramework(false);
             setFrontend(false);
             setBackend(true);
             setPlatform(false);
+            setDbms(false);
         } else if (item === 'platform') {
             setFramework(false);
             setFrontend(false);
             setBackend(false);
             setPlatform(true);
+            setDbms(false);
+        }
+        else if (item === 'dbms') {
+            setFramework(false);
+            setFrontend(false);
+            setBackend(false);
+            setPlatform(false);
+            setDbms(true);
         }
 
     }
@@ -66,6 +77,10 @@ const index = props => {
         } else if (platform) {
             return (
                 <div><Platform /></div>
+            )
+        } else if (dbms) {
+            return (
+                <div><DBMS /></div>
             )
         }
     }
@@ -136,6 +151,7 @@ const index = props => {
                         <Fade delay={1000}><h1 onClick={() => selectStack('backend')} className={backend && 'active'}>Back-End</h1></Fade>
                         <Fade delay={1000}><h1 onClick={() => selectStack('framework')} className={framework && 'active'}>Framework</h1></Fade>
                         <Fade delay={1000}><h1 onClick={() => selectStack('platform')} className={platform && 'active'}>Platform</h1></Fade>
+                        <Fade delay={1000}><h1 onClick={() => selectStack('dbms')} className={dbms && 'active'}>DBMS</h1></Fade>
                     </div>
                     {renderStack()}
                 </div>
