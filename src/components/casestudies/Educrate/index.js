@@ -8,6 +8,9 @@ import '../casestudies.css'
 import Fade from 'react-reveal/Fade';
 
 // importing images
+import SohailWork from '../../common/casestudy/Sohail/SohailWork';
+import EducrateWork from '../../common/casestudy/Educrate/EducrateWork';
+
 
 import EducrateHeader from '../../common/casestudy/Educrate/EducrateHeader';
 import EducrateLogo from '../../common/casestudy/Educrate/EducrateLogo';
@@ -243,9 +246,7 @@ const index = props => {
                 <div className="home-work">
                     <h1 className="text-center">Other projects done by me</h1>
                     <div className="home-work-section">
-                        <div className="row" style={{
-                            paddingTop: '3rem'
-                        }}>
+                        <div className="row" style={{ paddingTop: '3rem' }}>
                             <div className="col-md-6">
                                 <div className="work_image">
                                 </div>
