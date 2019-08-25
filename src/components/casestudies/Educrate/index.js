@@ -38,7 +38,7 @@ const index = props => {
                 style={{ marginBottom: '7rem' }}>
                 <div className="casestudy-Landing">
                     <div className="header-image" >
-                        <Fade><EducrateHeader /></Fade>
+                        <EducrateHeader />
                     </div>
                     <Fade>
                         <div className="description">
