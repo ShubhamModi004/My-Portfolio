@@ -4,6 +4,34 @@
     margin: 2rem 0;
 }
 
+@media only screen and (max-width: 767px){
+    .casestudy-Landing .description{
+        display: table;
+    }
+}
+
+.casestudy-Landing .description .details{
+    width: 40%;
+}
+
+@media only screen and (max-width: 767px){
+    .casestudy-Landing .description .details{
+        width: 100%;
+    }
+}
+
+
+.casestudy-Landing .description .details-right{
+    text-align: right;
+}
+
+@media only screen and (max-width: 767px){
+    .casestudy-Landing .description .details-right{
+        text-align: left;
+    }
+}
+
+
 .casestudy-Landing .description h1{
     font-size: 1.2rem;
     font-weight: 500;
@@ -14,6 +42,7 @@
     font-size: 1rem;
     font-weight: 300;
     color: #594D70;
+
 }
 
 .casestudy-visit{
@@ -24,6 +53,12 @@
     align-items: center;
     padding: 2rem 3rem;
 }
+
+@media only screen and (max-width: 767px){
+    .casestudy-visit{
+        padding: 2rem 1rem;
+    }
+}
 .casestudy-visit h3{
     font-size: 1.3rem;
     font-weight: 400;
@@ -31,6 +66,11 @@
     -webkit-transition: 0.3s all ease-in-out;
     -moz-transition: 0.3s all ease-in-out;
     transition: 0.3s all ease-in-out;
+}
+@media only screen and (max-width: 767px){
+    .casestudy-visit h3{
+       font-size: 1rem;
+    }
 }
 .casestudy-visit h3:hover{
     transform: scale(1.01);
@@ -62,6 +102,11 @@
     font-weight: 300;
     margin-bottom: 1rem;
 }
+@media only screen and (max-width: 767px){
+    .casestudy-problem h1{
+        font-size: 1.5rem;
+    }
+}
 
 .casestudy-problem p{
     color: #C0B0DF;
@@ -69,7 +114,41 @@
     font-weight: 100;
     margin: 1.5rem 3rem 4rem 0rem;
     line-height: 2.2rem;
+    letter-spacing: 0.1rem;
 }
+
+@media only screen and (max-width: 767px){
+    .casestudy-problem p{
+        margin: 1.5rem 0rem 4rem 0rem;
+        font-size: 0.9rem;
+    }
+}
+
+
+.casetudy-homepage{
+    display: flex;
+    padding: 3rem;
+}
+
+@media only screen and (max-width: 767px){
+    .casetudy-homepage{
+        display: block;
+        padding: 0rem;
+        margin-top: 2rem;
+    }
+}
+
+
+@media only screen and (max-width: 767px){
+    .casestudy-ss-description{
+        margin-top: 2rem;
+    }
+    .reverse{
+        flex-flow: column-reverse;
+    }
+}
+
+
 
 .case-image-section{
     object-fit: contain;
@@ -113,20 +192,35 @@
 }
 
 @keyframes scrollCoverBrowser{
-    10% {
+    0% {
     -webkit-transform: translateY(0%);
     -ms-transform: translateY(0%);
     transform: translateY(0%);
     }
-    50% {
-        -webkit-transform: translateY(calc(-50% + 285px));
-        -ms-transform: translateY(calc(-50% + 285px));
-        transform: translateY(calc(-50% + 285px));
+    20% {
+        -webkit-transform: translateY(calc(-20% + 120px));
+        -ms-transform: translateY(calc(-20% + 120px));
+        transform: translateY(calc(-20% + 120px));
+    }
+    40% {
+        -webkit-transform: translateY(calc(-40% + 240px));
+        -ms-transform: translateY(calc(-40% + 240px));
+        transform: translateY(calc(-40% + 240px));
+    }
+    60% {
+    -webkit-transform: translateY(calc(-60% + 360px));
+        -ms-transform: translateY(calc(-60% + 360px));
+        transform: translateY(calc(-60% + 360px));
+    }
+    80% {
+    -webkit-transform: translateY(calc(-80% + 480px));
+        -ms-transform: translateY(calc(-80% + 480px));
+        transform: translateY(calc(-80% + 480px));
     }
     100% {
-        -webkit-transform: translateY(calc(-100% + 570px));
-        -ms-transform: translateY(calc(-100% + 570px));
-        transform: translateY(calc(-100% + 570px));
+        -webkit-transform: translateY(calc(-100% + 600px));
+        -ms-transform: translateY(calc(-100% + 600px));
+        transform: translateY(calc(-100% + 600px));
     }
 }
 

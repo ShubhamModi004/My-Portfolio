@@ -9,11 +9,15 @@ import Fade from 'react-reveal/Fade';
 
 // importing images
 
-import SohailHeader from '../../common/casestudy/Sohail/SohailHeader';
-import SohailLogo from '../../common/casestudy/Sohail/SohailLogo';
-import SohailHome from '../../common/casestudy/Sohail/SohailHome';
-import SohailAbout from '../../common/casestudy/Sohail/SohailAbout';
-import SohailProcess from '../../common/casestudy/Sohail/SohailProcess';
+import EducrateHeader from '../../common/casestudy/Educrate/EducrateHeader';
+import EducrateLogo from '../../common/casestudy/Educrate/EducrateLogo';
+import EducrateHome from '../../common/casestudy/Educrate/EducrateHome';
+import EducrateAbout from '../../common/casestudy/Educrate/EducrateAbout';
+import EducrateProduct from '../../common/casestudy/Educrate/EducrateProduct';
+import EducratePurchase from '../../common/casestudy/Educrate/EducratePurchase';
+import EducrateSkill from '../../common/casestudy/Educrate/EducrateSkill';
+import EducrateKnowledge from '../../common/casestudy/Educrate/EducrateKnowledge';
+import EducrateContact from '../../common/casestudy/Educrate/EducrateContact';
 
 // importing tech stack
 import Bootstrap from '../../common/Bootstrap';
@@ -21,7 +25,7 @@ import Html5 from '../../common/Html5';
 import Css3 from '../../common/Css3';
 import Reactjs from '../../common/Reactjs';
 import Gatsby from '../../common/Gatsby';
-import Contentful from '../../common/Contentful';
+
 
 const index = props => {
     return (
@@ -31,25 +35,25 @@ const index = props => {
                 style={{ marginBottom: '7rem' }}>
                 <div className="casestudy-Landing">
                     <div className="header-image" >
-                        <Fade><SohailHeader /></Fade>
+                        <Fade><EducrateHeader /></Fade>
                     </div>
                     <Fade>
                         <div className="description">
                             <div class="details">
-                                <h1>Sohail Minimalist</h1>
-                                <p>UI/UX designer from Bangalore.Specialized in User Interface & User Experience Design</p>
+                                <h1>Educrate Smart Classroom Projectors</h1>
+                                <p>Educrate is digital/smart classroom concept for students.Bringing in advancements in the field of education and moreover audio visual content should reach them, at minimal cost.</p>
                             </div>
-                            <div class="details-right">
-                                <h1>Client: <span>Sohail Mohammad</span></h1>
+                            <div className="details-right">
+                                <h1>Client: <span>Educrate India</span></h1>
                                 <p>Role: <span> Frontend and Backend development(Website)</span></p>
                             </div>
                         </div>
                     </Fade>
                     <Fade>
                         <div className="casestudy-visit">
-                            <a href="https://sohailminimalist.com"><h3>Visit the Website</h3></a>
-                            <div className="case-study-logo">
-                                <a href="https://sohailminimalist.com"><SohailLogo /></a>
+                            <a href="https://educrateindia.com/en/"><h3>Visit the Website</h3></a>
+                            <div className="case-study-logo" style={{ width: '6.5rem' }}>
+                                <a href="https://educrateindia.com/en/"><EducrateLogo /></a>
                             </div>
                         </div>
                     </Fade>
@@ -59,18 +63,19 @@ const index = props => {
                 <div className="container boxcontainer">
                     <Fade><h1>What was required</h1></Fade>
                     <Fade><p>
-                        Development of a minimalist designed personal portfolio, to write blogs and share work experiences.
-                        design language to be followed precisely based on the ui and ux designed, with minimal load times between pages
-                        and animations.
+                        Development of a website with huge chunks of content about the product, product description, target audience being English / Hindi medium Schools,
+                        ways to reach us, site with functionality to change the preferred language of viewing the content,
+                        intergration google docs to get free content and management of the content.
                     </p></Fade>
                     <Fade><h1>Problem Statement - Target Audience - My Solution</h1></Fade>
                     <Fade><p>
-                        Deadline was strict as the site had to be done in a weeks time for my client's interview.
-                        Site had be developed with perfection in mind managing the design language without outlawing the development rules.<br />
-                        Target audience were tech companies and businesses looking for branding and aesthetic design language.<br />
-                        I used to Gatsby Js a react library for development of the website, made use of service workers to reduce the load times to achieve smooth transitions and animations.
-                        For styling the site I opted for writing css code from scratch and with minimal use of css framework to achieve perfection in design language.
-                        For easy management of blogs and work experiences made use of Contentful a content infrastructure.
+                        Management of the content in English and Hindi, Site will be visited in rural areas with low speed internet connections
+                        Site had to be developed with perfection in mind managing all the content wihtout throwing all the content at once on the screen<br /><br />
+                        Target audience hindi/engkish medium schools and students.<br /><br />
+                        I used to React Js a javascript library for development of the website, made use of service workers to reduce the load times and made a web app version of the site that can be downloaded and viewed with or without internet.
+                        For styling I used Bootstrap framework.
+                        For Hindi version of the site a tab to switch between hindi and english version of the site was integrated, made use fo react/intl to change the langage reference of the site without reloading the entire content.
+                        For easy management of content each page was divided into various sections and tabs to view the sections.
                     </p></Fade>
                     <Fade><h1>What was used to do this</h1></Fade>
                     <div className="row py-5" >
@@ -109,41 +114,35 @@ const index = props => {
                                 </div>
                             </Fade>
                         </div>
-                        <div className="col">
-                            <Fade delay={100}>
-                                <div className="cardStack">
-                                    <Contentful />
-                                </div>
-                            </Fade>
-                        </div>
                     </div>
                 </div>
             </div>
             <div className="container boxcontainer" style={{ marginBottom: '7rem' }}>
                 <div className="p-4 case-ScreenShots">
                     <div className="screenshot-container">
-                        <Fade><SohailHome /></Fade>
+                        <Fade><EducrateHome /></Fade>
                     </div>
                     <div className="casetudy-homepage" style={{ justifyContent: "space-between" }}>
                         <div>
                             <Fade cascade>
-                                <h4>Sohail Mohammad | Home Page</h4>
-                                <p>Page giving a brief description about Sohail, blog posts and work experiences.</p>
+                                <h4>Educrate India | Home Page</h4>
+                                <p>Page giving a brief description about Educrate and how it works.</p>
                             </Fade>
                         </div>
+
                     </div>
                 </div>
 
                 <div className="p-4">
                     <div className="row">
                         <div className="col-md-6 case-study-image" >
-                            <Fade><SohailAbout /></Fade>
+                            <Fade><EducrateAbout /></Fade>
                         </div>
                         <div className="col-md-6 d-flex" style={{ alignItems: 'center' }}>
                             <div className="casestudy-ss-description">
                                 <Fade cascade>
-                                    <h4>Sohail Mohammad | About Page</h4>
-                                    <p>Page giving a detailed description about Sohail,<br /> his interests and achievements</p>
+                                    <h4>Educrate India | About Page</h4>
+                                    <p>Page giving a detailed description about Educrate,<br />, its vision, mission and aim</p>
                                 </Fade>
                             </div>
                         </div>
@@ -155,13 +154,75 @@ const index = props => {
                         <div className="col-md-6 d-flex" style={{ alignItems: 'center' }}>
                             <div className="casestudy-ss-description">
                                 <Fade cascade>
-                                    <h4>Sohail Mohammad | Process Page</h4>
-                                    <p>Page giving a detailed description about Sohail,<br /> his interests and achievements</p>
+                                    <h4>Educrate India | Product Page</h4>
+                                    <p>Page giving a detailed description about Educrate hardware,<br /> how it works, and hardware requirementst to run the projector</p>
                                 </Fade>
                             </div>
                         </div>
                         <div className="col-md-6 case-study-image" >
-                            <Fade><SohailProcess /></Fade>
+                            <Fade><EducrateProduct /></Fade>
+                        </div>
+                    </div>
+                </div>
+                <div className="p-4">
+                    <div className="row">
+                        <div className="col-md-6 case-study-image" >
+                            <Fade><EducratePurchase /></Fade>
+                        </div>
+                        <div className="col-md-6 d-flex" style={{ alignItems: 'center' }}>
+                            <div className="casestudy-ss-description">
+                                <Fade cascade>
+                                    <h4>Educrate India| Purchase Page</h4>
+                                    <p>Purchase page describes steps to raise quotation,<br />and order Educrate projector online.</p>
+                                </Fade>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="p-4">
+                    <div className="row reverse">
+                        <div className="col-md-6 d-flex" style={{ alignItems: 'center' }}>
+                            <div className="casestudy-ss-description">
+                                <Fade cascade>
+                                    <h4>Educrate India | Skills Certificate Page</h4>
+                                    <p>Page giving a detailed description about Skills developed,<br />and detailed description about Skills ceritificate model.</p>
+                                </Fade>
+                            </div>
+                        </div>
+                        <div className="col-md-6 case-study-image" >
+                            <Fade><EducrateSkill /></Fade>
+                        </div>
+                    </div>
+                </div>
+                <div className="p-4">
+                    <div className="row">
+                        <div className="col-md-6 case-study-image" >
+                            <Fade><EducrateKnowledge /></Fade>
+                        </div>
+                        <div className="col-md-6 d-flex" style={{ alignItems: 'center' }}>
+                            <div className="casestudy-ss-description">
+                                <Fade cascade>
+                                    <h4>Educrate India | Knowledge Bank Page</h4>
+                                    <p>Educrate Knowledge bank lets user to resgister to the google docs<br />where user can view all the study material.</p>
+                                </Fade>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="p-4">
+                    <div className="row reverse">
+                        <div className="col-md-6 d-flex" style={{ alignItems: 'center' }}>
+                            <div className="casestudy-ss-description">
+                                <Fade cascade>
+                                    <h4>Educrate India | Contact Page</h4>
+                                    <p>Educrate contact page<br /></p>
+                                </Fade>
+                            </div>
+                        </div>
+                        <div className="col-md-6 case-study-image" >
+                            <Fade><EducrateContact /></Fade>
                         </div>
                     </div>
                 </div>
@@ -169,11 +230,11 @@ const index = props => {
             <div className="casestudy-problem">
                 <div className="container boxcontainer">
                     <h1>Conclusion</h1>
-                    <p>Website was successfully developed meeting all the requirements.</p>
+                    <p>Website was succesfully developed meeting all the requirements.</p>
                     <div className="casestudy-visit" style={{ background: 'rgba(255,255,255, 0.14)' }}>
-                        <a href="https://sohailminimalist.com"><h3 style={{ color: '#fff' }}>Visit the Website</h3></a>
-                        <div className="case-study-logo">
-                            <a href="https://sohailminimalist.com"><SohailLogo /></a>
+                        <a href="https://educrateindia.com/en/"><h3 style={{ color: '#fff' }}>Visit the Website</h3></a>
+                        <div className="case-study-logo" style={{ width: '6.5rem' }}>
+                            <a href="https://educrateindia.com/en/"><EducrateLogo /></a>
                         </div>
                     </div>
                 </div>

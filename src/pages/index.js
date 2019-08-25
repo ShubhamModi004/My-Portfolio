@@ -39,7 +39,11 @@ class IndexPage extends Component {
         :
         <Fade delay={100}>
           <Layout>
-            <SEO title="Shubham Modi" />
+            <SEO title="Home Full Stack Developer | Bangalore | Banaglore"
+              keywords={[`Shubham Modi`, `Full Stack Developer`, `React Js Developer`,
+                `Mobile App Developer goa`, `Frontend Designers Goa`, `Website makers in goa`,
+                `website develoepers in goa`, `software developers in goa`, `Websites`, `Webapps`,
+                `Android App`, `Ios App`]} />
             <Landing />
             <Tech />
             <Work />
