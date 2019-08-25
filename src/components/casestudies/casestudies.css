@@ -198,29 +198,29 @@
     transform: translateY(0%);
     }
     20% {
-        -webkit-transform: translateY(calc(-20% + 120px));
-        -ms-transform: translateY(calc(-20% + 120px));
-        transform: translateY(calc(-20% + 120px));
+        -webkit-transform: translateY(-20%);
+        -ms-transform: translateY(-20%);
+        transform: translateY(-20%);
     }
     40% {
-        -webkit-transform: translateY(calc(-40% + 240px));
-        -ms-transform: translateY(calc(-40% + 240px));
-        transform: translateY(calc(-40% + 240px));
+        -webkit-transform: translateY(-40%);
+        -ms-transform: translateY(-40%);
+        transform: translateY(-40%);
     }
     60% {
-    -webkit-transform: translateY(calc(-60% + 360px));
-        -ms-transform: translateY(calc(-60% + 360px));
-        transform: translateY(calc(-60% + 360px));
+    -webkit-transform: translateY(-60%);
+        -ms-transform: translateY(-60%);
+        transform: translateY(-60%);
     }
     80% {
-    -webkit-transform: translateY(calc(-80% + 480px));
-        -ms-transform: translateY(calc(-80% + 480px));
-        transform: translateY(calc(-80% + 480px));
+    -webkit-transform: translateY(-70%);
+        -ms-transform: translateY(-70%);
+        transform: translateY(-70%);
     }
     100% {
-        -webkit-transform: translateY(calc(-100% + 600px));
-        -ms-transform: translateY(calc(-100% + 600px));
-        transform: translateY(calc(-100% + 600px));
+        -webkit-transform: translateY(-80%);
+        -ms-transform: translateY(-80%);
+        transform: translateY(-80%);
     }
 }
 
