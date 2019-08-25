@@ -31,7 +31,11 @@ class IndexPage extends Component {
         return (
             (!render ?
                 <Loader>
-                    <SEO title="About Ui Ux Designer | Bangalore" keywords={[`Sohail`, `UI/UX`, `BEST UX DEVELOPER`, `BEST UI DESIGNER`, `UI DESIGNERS IN GOA`, `UI DESIGNERS IN BANGALORE`]} />
+                    <SEO title="Contact Full Stack Developer | Bangalore | Banaglore"
+                        keywords={[`Shubham Modi`, `Full Stack Developer`, `React Js Developer`,
+                            `Mobile App Developer goa`, `Frontend Designers Goa`, `Website makers in goa`,
+                            `website develoepers in goa`, `software developers in goa`, `Websites`, `Webapps`,
+                            `Android App`, `Ios App`]} />
                 </Loader>
                 :
                 <Fade delay={100}>

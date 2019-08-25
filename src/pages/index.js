@@ -1,8 +1,6 @@
 import React, { Component } from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
 import Loader from "../components/Loader/Loader"
 
@@ -32,7 +30,11 @@ class IndexPage extends Component {
     return (
       (!render ?
         <Loader>
-          <SEO title="About Ui Ux Designer | Bangalore" keywords={[`Sohail`, `UI/UX`, `BEST UX DEVELOPER`, `BEST UI DESIGNER`, `UI DESIGNERS IN GOA`, `UI DESIGNERS IN BANGALORE`]} />
+          <SEO title="Home Full Stack Developer | Bangalore | Banaglore"
+            keywords={[`Shubham Modi`, `Full Stack Developer`, `React Js Developer`,
+              `Mobile App Developer goa`, `Frontend Designers Goa`, `Website makers in goa`,
+              `website develoepers in goa`, `software developers in goa`, `Websites`, `Webapps`,
+              `Android App`, `Ios App`]} />
         </Loader>
         :
         <Fade delay={100}>
