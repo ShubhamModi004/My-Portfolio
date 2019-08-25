@@ -6,7 +6,6 @@ import Loader from "../../components/Loader/Loader"
 
 // import sections
 import Index from '../../components/casestudies/Sohail';
-import Work from '../../components/CaseStudy/Work';
 import Footer from '../../components/Footer';
 
 // For the fade in effect;
@@ -44,6 +43,7 @@ class IndexPage extends Component {
                                 `website develoepers in goa`, `software developers in goa`, `Websites`, `Webapps`,
                                 `Android App`, `Ios App`]} />
                         <Index />
+                        <Footer />
                     </Layout>
                 </Fade>
             )
