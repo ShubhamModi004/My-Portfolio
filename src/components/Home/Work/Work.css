@@ -11,16 +11,37 @@
 
 .work_image{
     width: 100%;
-    height: 25rem;
+    height: 20rem;
     border-radius: 2rem;
     background-color: #f1f1f1;
     cursor: pointer;
+    overflow: hidden;
+    box-shadow: 0 15px 28px 0 rgba(0, 0, 0, 0.3);
+    -webkit-transition: 0.3s all ease-in-out;
+    -moz-transition: 0.3s all ease-in-out;
+    transition: 0.3s all ease-in-out;
+}
+.work_image:hover .gatsby-image-wrapper{
+    transform: scale(1.1);
+}
+
+
+.work_image .gatsby-image-wrapper{
+    height: 20rem;
+    border-radius: 2rem;
+     -webkit-transition: 0.3s all ease-in-out;
+    -moz-transition: 0.3s all ease-in-out;
+    transition: 0.3s all ease-in-out;
 }
 
 @media only screen and (max-width: 747px){
     .work_image{
         margin: auto;
-        height: 20rem;
+        height: 17rem;
+    }
+    .work_image .gatsby-image-wrapper{
+        height: 17rem;
+        border-radius: 2rem;
     }
     .home-work-section{
         padding: 1rem;

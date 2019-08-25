@@ -71,8 +71,8 @@ const index = props => {
                     <Fade><p>
                         Management of the content in English and Hindi, Site will be visited in rural areas with low speed internet connections
                         Site had to be developed with perfection in mind managing all the content wihtout throwing all the content at once on the screen<br /><br />
-                        Target audience hindi/engkish medium schools and students.<br /><br />
-                        I used to React Js a javascript library for development of the website, made use of service workers to reduce the load times and made a web app version of the site that can be downloaded and viewed with or without internet.
+                        Target audience were hindi/english medium schools and students.<br /><br />
+                        I used React Js a javascript library for development of the website, made use of service workers to reduce the load times and made a web app version of the site that can be downloaded and viewed with or without internet.
                         For styling I used Bootstrap framework.
                         For Hindi version of the site a tab to switch between hindi and english version of the site was integrated, made use fo react/intl to change the langage reference of the site without reloading the entire content.
                         For easy management of content each page was divided into various sections and tabs to view the sections.
@@ -230,7 +230,7 @@ const index = props => {
             <div className="casestudy-problem">
                 <div className="container boxcontainer">
                     <h1>Conclusion</h1>
-                    <p>Website was succesfully developed meeting all the requirements.</p>
+                    <p>Website was successfully developed meeting all the requirements.</p>
                     <div className="casestudy-visit" style={{ background: 'rgba(255,255,255, 0.14)' }}>
                         <a href="https://educrateindia.com/en/"><h3 style={{ color: '#fff' }}>Visit the Website</h3></a>
                         <div className="case-study-logo" style={{ width: '6.5rem' }}>
