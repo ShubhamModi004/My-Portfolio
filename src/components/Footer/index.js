@@ -23,7 +23,7 @@ const index = props => {
                 <h1 className="footer-header">Get to know me better</h1>
                 <div className="footer-buttons">
                     <Fade cascade>
-                        <a href="./cv/Resume.png" download>
+                        <a href="/Resume.pdf" download>
                             <div className="button-area">
                                 <div className="button-fill-yellow">
                                     <div className="case">

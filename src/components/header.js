@@ -27,7 +27,7 @@ const Header = ({ siteTitle }) => (
           </div>
           <p className="Link">Case Studies</p>
         </Link>
-        <a href="./cv/Resume.png" download className="d-flex linkWrapperDownload">
+        <a href="/Resume.pdf" download className="d-flex linkWrapperDownload">
           <div style={{ width: '1.6rem' }}>
             <Resume />
           </div>
