@@ -34,6 +34,12 @@ a:hover{
   padding: 5rem 20rem;
 }
 
+@media only screen and (max-width: 767px){
+  .Resume_Container{
+    padding: 2rem 2rem;
+  }
+}
+
 
 .react-pdf__Page__canvas{
   width: 100% !important;
