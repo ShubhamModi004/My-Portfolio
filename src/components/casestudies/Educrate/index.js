@@ -123,7 +123,7 @@ const index = props => {
             <div className="container boxcontainer" style={{ marginBottom: '7rem' }}>
                 <div className="p-4 case-ScreenShots">
                     <div className="screenshot-container">
-                        <Fade><EducrateHome /></Fade>
+                        <EducrateHome />
                     </div>
                     <div className="casetudy-homepage" style={{ justifyContent: "space-between" }}>
                         <div>
