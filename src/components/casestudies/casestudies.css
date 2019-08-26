@@ -243,19 +243,19 @@
             transform: translateY(-25%);
         }
         60% {
-            -webkit-transform: translateY(-45%);
-            -ms-transform: translateY(-45%);
-            transform: translateY(-45%);
+            -webkit-transform: translateY(-40%);
+            -ms-transform: translateY(-40%);
+            transform: translateY(-40%);
         }
         80% {
+            -webkit-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+        }
+        100% {
             -webkit-transform: translateY(-55%);
             -ms-transform: translateY(-55%);
             transform: translateY(-55%);
-        }
-        100% {
-            -webkit-transform: translateY(-60%);
-            -ms-transform: translateY(-60%);
-            transform: translateY(-60%);
         }
     }
 }

@@ -23,7 +23,7 @@ const Popover = props => {
                         </div>
                         <p className="Link" style={{ fontSize: '1.3rem' }}>Case Studies</p>
                     </Link>
-                    <a href="./cv/Cv.pdf" className="d-flex">
+                    <a href="./cv/Cv.pdf" download className="d-flex">
                         <div style={{ width: '2.3rem' }}>
                             <Resume />
                         </div>
