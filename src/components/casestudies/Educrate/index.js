@@ -66,7 +66,7 @@ const index = props => {
                 <div className="container boxcontainer">
                     <Fade><h1>What was required</h1></Fade>
                     <Fade><p>
-                        Development of a website with huge chunks of content about the product, product description, target audience being English / Hindi medium Schools,
+                        Development of a website and management of content about the product, product description, target audience being English / Hindi medium Schools,
                         ways to reach us, site with functionality to change the preferred language of viewing the content,
                         intergration google docs to get free content and management of the content.
                     </p></Fade>

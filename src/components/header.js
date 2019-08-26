@@ -27,7 +27,7 @@ const Header = ({ siteTitle }) => (
           </div>
           <p className="Link">Case Studies</p>
         </Link>
-        <a href="./cv/Cv.pdf" download className="d-flex linkWrapperDownload">
+        <a href="./cv/Resume.pdf" download className="d-flex linkWrapperDownload">
           <div style={{ width: '1.6rem' }}>
             <Resume />
           </div>
@@ -61,7 +61,7 @@ const styles = ({
   },
   Link: {
     fontSize: '0.8rem',
-    marginLeft: '0.5rem',
+    marginLeft: '0.55rem',
     marginBottom: 0,
     marginTop: '2px'
 
@@ -73,7 +73,7 @@ Header.propTypes = {
 }
 
 Header.defaultProps = {
-  siteTitle: ``,
+  siteTitle: `Shubham Modi`,
 }
 
 export default Header
