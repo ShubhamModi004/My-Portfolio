@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Document, Page } from 'react-pdf';
-import Resume from "../components/Resume.pdf";
+import Resume from "../images/Resume.pdf";
+import Layout from "../components/layout"
 
 
 class indexPage extends Component {
@@ -16,14 +17,16 @@ class indexPage extends Component {
     render() {
         const { pageNumber, numPages } = this.state;
         return (
-            <div className="Resume_Container">
-                <Document
-                    file={Resume}
-                    onLoadSuccess={this.onDocumentLoad}
-                >
-                    <Page pageNumber={pageNumber} />
-                </Document>
-            </div>
+            <Layout>
+                <div className="Resume_Container">
+                    <Document
+                        file={Resume}
+                        onLoadSuccess={this.onDocumentLoad}
+                    >
+                        <Page pageNumber={pageNumber} />
+                    </Document>
+                </div>
+            </Layout>
         );
     }
 }
