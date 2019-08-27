@@ -198,11 +198,41 @@ const index = props => {
                         </div>
                     </div>
                 </div>
+                <div className="p-4">
+                    <div className="row reverse">
+                        <div className="col-md-6 d-flex" style={{ alignItems: 'center' }}>
+                            <div className="casestudy-ss-description">
+                                <Fade cascade>
+                                    <h4>Nba App | Player Screen</h4>
+                                    <p>Screen showing details of the top player of the week and his stats.</p>
+                                </Fade>
+                            </div>
+                        </div>
+                        <div className="col-md-6 case-study-image" >
+                            <Fade><NbaIndividualScore /></Fade>
+                        </div>
+                    </div>
+                </div>
+                <div className="p-4">
+                    <div className="row">
+                        <div className="col-md-6 case-study-image" >
+                            <Fade><NbaVideoScreen /></Fade>
+                        </div>
+                        <div className="col-md-6 d-flex" style={{ alignItems: 'center' }}>
+                            <div className="casestudy-ss-description">
+                                <Fade cascade>
+                                    <h4>Nba App | Highlights Screen</h4>
+                                    <p>Screen with highlights of the recent the match and match stats</p>
+                                </Fade>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div className="casestudy-problem">
                 <div className="container boxcontainer">
                     <h1>Conclusion</h1>
-                    <p>Website was successfully developed meeting all the requirements.</p>
+                    <p>App was successfully designed , developed and tested on both Android and iOS</p>
                     <a href="https://github.com/ShubhamModi004/Nba_App">
                         <div className="casestudy-visit" style={{ background: 'rgba(255,255,255, 0.14)' }}>
                             <a href="https://github.com/ShubhamModi004/Nba_App"><h3 style={{ color: '#fff' }}>View on github</h3></a>

@@ -10,6 +10,7 @@ import Fade from 'react-reveal/Fade';
 // importing images
 import SohailWork from '../../common/casestudy/Sohail/SohailWork';
 import EducrateWork from '../../common/casestudy/Educrate/EducrateWork';
+import NbaHeader from '../../common/casestudy/Nba/NbaHeader';
 
 
 import EducrateHeader from '../../common/casestudy/Educrate/EducrateHeader';
@@ -270,16 +271,16 @@ const index = props => {
                             </div>
                             <div className="col-md-6" >
                                 <div className="work_image">
-                                    <Link to={'/casestudy/Educrate'}><EducrateWork /></Link>
+                                    <Link to={'/casestudy/Nba'}><NbaHeader /></Link>
                                 </div>
                                 <div className="py-3">
                                     <Fade cascade bottom>
                                         <div>
-                                            <h1 style={{ fontSize: '1.3rem', marginBottom: '0.5rem' }}>Educrate India | Website development</h1>
-                                            <p style={{ marginBottom: '0rem', fontWeight: '100' }}>Smart classroom projectors.</p>
+                                            <h1 style={{ fontSize: '1.3rem', marginBottom: '0.5rem' }}>Nba App | Demo App</h1>
+                                            <p style={{ marginBottom: '0rem', fontWeight: '100' }}>Personal demo mobile app showing Nba players, matches, highlights, latest news and videos.</p>
                                         </div>
                                         <div className="read_case">
-                                            <Link to={'/casestudy/Educrate'}>
+                                            <Link to={'/casestudy/Nba'}>
                                                 <div class="concept concept-five">
                                                     <h1 class="word"><span class="char">R</span><span class="char">E</span><span class="char">A</span><span class="char">D</span><span class="char" style={{ paddingLeft: '5px' }}></span><span class="char">C</span><span class="char">A</span><span class="char">S</span><span class="char">E</span></h1>
                                                 </div>
