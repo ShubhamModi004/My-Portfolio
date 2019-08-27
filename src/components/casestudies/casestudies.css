@@ -191,6 +191,20 @@
     box-shadow: 0 15px 28px 0 rgba(0, 0, 0, 0.3);
 }
 
+.mobile_mock{
+    padding: 1rem;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.mobile_mock .gatsby-image-wrapper{
+    width: 14rem;
+}
+
 @keyframes scrollCoverBrowser{
     0% {
     -webkit-transform: translateY(0%);

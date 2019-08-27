@@ -12,19 +12,23 @@ import SohailWork from '../../common/casestudy/Sohail/SohailWork';
 import EducrateWork from '../../common/casestudy/Educrate/EducrateWork';
 
 
-import SohailHeader from '../../common/casestudy/Sohail/SohailHeader';
-import SohailLogo from '../../common/casestudy/Sohail/SohailLogo';
-import SohailHome from '../../common/casestudy/Sohail/SohailHome';
-import SohailAbout from '../../common/casestudy/Sohail/SohailAbout';
-import SohailProcess from '../../common/casestudy/Sohail/SohailProcess';
+import NbaHeader from '../../common/casestudy/Nba/NbaHeader';
+import NbaHome from '../../common/casestudy/Nba/NbaHome';
+import NbaMatch from '../../common/casestudy/Nba/NbaMatch';
+import NbaPlayer from '../../common/casestudy/Nba/NbaPlayer';
+import NbaArticleScreen from '../../common/casestudy/Nba/NbaArticleScreen';
+import NbaHomeScreen from '../../common/casestudy/Nba/NbaHomeScreen';
+import NbaIndividualScore from '../../common/casestudy/Nba/NbaIndividualScore';
+import NbaMatchScreen from '../../common/casestudy/Nba/NbaMatchScreen';
+import NbaNewsScreen from '../../common/casestudy/Nba/NbaNewsScreen';
+import NbaVideoScreen from '../../common/casestudy/Nba/NbaVideoScreen';
+
 
 // importing tech stack
-import Bootstrap from '../../common/Bootstrap';
-import Html5 from '../../common/Html5';
-import Css3 from '../../common/Css3';
+import Kitten from '../../common/Kitten';
 import Reactjs from '../../common/Reactjs';
-import Gatsby from '../../common/Gatsby';
-import Contentful from '../../common/Contentful';
+import Firebase from '../../common/Firebase';
+import Redux from '../../common/Redux';
 
 const index = props => {
     return (
@@ -34,56 +38,50 @@ const index = props => {
                 style={{ marginBottom: '7rem' }}>
                 <div className="casestudy-Landing">
                     <div className="header-image" >
-                        <Fade><SohailHeader /></Fade>
+                        <Fade><NbaHeader /></Fade>
                     </div>
                     <Fade>
                         <div className="description">
                             <div class="details">
-                                <h1>Sohail Minimalist</h1>
-                                <p>UI/UX designer from Bangalore.Specialized in User Interface & User Experience Design</p>
+                                <h1>Nba App</h1>
+                                <p>Personal demo mobile app showing Nba players, matches, highlights, latest news and videos.</p>
                             </div>
                             <div class="details-right">
-                                <h1>Client: <span>Sohail Mohammad</span></h1>
-                                <p>Role: <span> Frontend and Backend development(Website)</span></p>
+                                <h1><span>Demo App</span></h1>
+                                <p>Role: <span> Frontend and Backend development(Hybrid Mobile App iOS/ Android)</span></p>
                             </div>
                         </div>
                     </Fade>
                     <Fade>
-                        <div className="casestudy-visit">
-                            <a href="https://sohailminimalist.com"><h3>Visit the Website</h3></a>
-                            <div className="case-study-logo">
-                                <a href="https://sohailminimalist.com"><SohailLogo /></a>
+                        <a href="https://github.com/ShubhamModi004/Nba_App">
+                            <div className="casestudy-visit">
+                                <a href="https://github.com/ShubhamModi004/Nba_App"><h3>View on github</h3></a>
                             </div>
-                        </div>
+                        </a>
                     </Fade>
                 </div>
             </div>
             <div className="casestudy-problem">
                 <div className="container boxcontainer">
                     <Fade><h1>What was required</h1></Fade>
-                    <Fade><p>
-                        Development of a minimalist designed personal portfolio, to write blogs and share work experiences.
-                        design language to be followed precisely based on the ui and ux designed, with minimal load times between pages
-                        and animations.
-                    </p></Fade>
-                    <Fade><h1>Problem Statement - Target Audience - My Solution</h1></Fade>
-                    <Fade><p>
-                        Deadline was strict as the site had to be done in a weeks time for my client's interview.
-                        Site had be developed with perfection in mind managing the design language without outlawing the development rules.<br />
-                        Target audience were tech companies and businesses looking for branding and aesthetic design language.<br />
-                        I used to Gatsby Js a react library for development of the website, made use of service workers to reduce the load times to achieve smooth transitions and animations.
-                        For styling the site I opted for writing css code from scratch and with minimal use of css framework to achieve perfection in design language.
-                        For easy management of blogs and work experiences made use of Contentful a content infrastructure.
-                    </p></Fade>
+                    <Fade>
+                        <p>
+                            Design and development of the Frontend/Backend of a mobile app for Nba matches, highlights, player stats, news, articles, individual record etc.
+                            App should follow same design language on both iOS and Android.
+                        </p>
+                    </Fade>
+                    <Fade><h1>My Solution</h1></Fade>
+                    <Fade>
+                        <p>
+                            I made use React Native a javascript library to develop the app that can run the same piece of code on both android and iOS with minimum change
+                            in code. React Native library makes use of states, since the project required a lot of state management i used redux to manage the state across
+                            different screens. Backend for the app is Firebase that provides REST APIs for the content on the screen. Login and Signup Page was implemented
+                            using Firebase wiht Password-Based Accounts using Javascript.
+                            I also made use of Kitten UI framework for easier frontend development.
+                        </p>
+                    </Fade>
                     <Fade><h1>What was used to do this</h1></Fade>
                     <div className="row py-5" >
-                        <div className="col">
-                            <Fade delay={100}>
-                                <div className="cardStack" style={{ width: '5rem', padding: 0 }}>
-                                    <Bootstrap />
-                                </div>
-                            </Fade>
-                        </div>
                         <div className="col">
                             <Fade delay={100}>
                                 <div className="cardStack">
@@ -94,28 +92,21 @@ const index = props => {
                         <div className="col">
                             <Fade delay={100}>
                                 <div className="cardStack">
-                                    <Gatsby />
+                                    <Redux />
+                                </div>
+                            </Fade>
+                        </div>
+                        <div className="col">
+                            <Fade delay={100}>
+                                <div className="cardStack" style={{ width: '3.5rem' }}>
+                                    <Firebase />
                                 </div>
                             </Fade>
                         </div>
                         <div className="col">
                             <Fade delay={100}>
                                 <div className="cardStack">
-                                    <Html5 />
-                                </div>
-                            </Fade>
-                        </div>
-                        <div className="col">
-                            <Fade delay={100}>
-                                <div className="cardStack">
-                                    <Css3 />
-                                </div>
-                            </Fade>
-                        </div>
-                        <div className="col">
-                            <Fade delay={100}>
-                                <div className="cardStack">
-                                    <Contentful />
+                                    <Kitten />
                                 </div>
                             </Fade>
                         </div>
@@ -123,16 +114,40 @@ const index = props => {
                 </div>
             </div>
             <div className="container boxcontainer" style={{ marginBottom: '7rem' }}>
-                <div className="p-4 case-ScreenShots">
-                    <div className="screenshot-container">
-                        <SohailHome />
-                    </div>
-                    <div className="casetudy-homepage" style={{ justifyContent: "space-between" }}>
-                        <div>
-                            <Fade>
-                                <h4>Sohail Mohammad | Home Page</h4>
-                                <p>Page giving a brief description about Sohail, blog posts and work experiences.</p>
-                            </Fade>
+                <div className="my-5">
+                    <div className="row">
+                        <div className="col mobile_mock" >
+                            <Fade><NbaHome /></Fade>
+                            <div className="casetudy-homepage" style={{ justifyContent: "space-between", textAlign: 'justify' }}>
+                                <div>
+                                    <Fade>
+                                        <h4>Home</h4>
+                                        <p>Screen showing latest match update, latest  news, top 3 players of the week and match highlights</p>
+                                    </Fade>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col mobile_mock" >
+                            <Fade><NbaMatch /></Fade>
+                            <div className="casetudy-homepage" style={{ justifyContent: "space-between", textAlign: 'justify' }}>
+                                <div>
+                                    <Fade>
+                                        <h4>Match Stats</h4>
+                                        <p>Screen showing latest match update, stats, score, points, team rankings and team history</p>
+                                    </Fade>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col mobile_mock" >
+                            <Fade><NbaPlayer /></Fade>
+                            <div className="casetudy-homepage" style={{ justifyContent: "space-between", textAlign: 'justify' }}>
+                                <div>
+                                    <Fade>
+                                        <h4>Top Player</h4>
+                                        <p>Screen showing details of the top player of the week and his stats.</p>
+                                    </Fade>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -140,13 +155,13 @@ const index = props => {
                 <div className="p-4">
                     <div className="row">
                         <div className="col-md-6 case-study-image" >
-                            <Fade><SohailAbout /></Fade>
+                            <Fade><NbaHomeScreen /></Fade>
                         </div>
                         <div className="col-md-6 d-flex" style={{ alignItems: 'center' }}>
                             <div className="casestudy-ss-description">
-                                <Fade>
-                                    <h4>Sohail Mohammad | About Page</h4>
-                                    <p>Page giving a detailed description about Sohail,<br /> his interests and achievements</p>
+                                <Fade cascade>
+                                    <h4>Nba App | Home Screen</h4>
+                                    <p>Screen showing latest match update, latest  news,<br /> top 3 players of the week and match highlights</p>
                                 </Fade>
                             </div>
                         </div>
@@ -157,14 +172,29 @@ const index = props => {
                     <div className="row reverse">
                         <div className="col-md-6 d-flex" style={{ alignItems: 'center' }}>
                             <div className="casestudy-ss-description">
-                                <Fade>
-                                    <h4>Sohail Mohammad | Process Page</h4>
-                                    <p>Page giving a detailed description about Sohail,<br /> his interests and achievements</p>
+                                <Fade cascade>
+                                    <h4>Nba App | News Screen</h4>
+                                    <p>Screen showing the latest news<br /> comments and likes on it.</p>
                                 </Fade>
                             </div>
                         </div>
                         <div className="col-md-6 case-study-image" >
-                            <Fade><SohailProcess /></Fade>
+                            <Fade><NbaNewsScreen /></Fade>
+                        </div>
+                    </div>
+                </div>
+                <div className="p-4">
+                    <div className="row">
+                        <div className="col-md-6 case-study-image" >
+                            <Fade><NbaMatchScreen /></Fade>
+                        </div>
+                        <div className="col-md-6 d-flex" style={{ alignItems: 'center' }}>
+                            <div className="casestudy-ss-description">
+                                <Fade cascade>
+                                    <h4>Nba App | Match Screen</h4>
+                                    <p>Screen showing latest match updates, score cards,<br />match stats and points</p>
+                                </Fade>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -173,12 +203,11 @@ const index = props => {
                 <div className="container boxcontainer">
                     <h1>Conclusion</h1>
                     <p>Website was successfully developed meeting all the requirements.</p>
-                    <div className="casestudy-visit" style={{ background: 'rgba(255,255,255, 0.14)' }}>
-                        <a href="https://sohailminimalist.com"><h3 style={{ color: '#fff' }}>Visit the Website</h3></a>
-                        <div className="case-study-logo">
-                            <a href="https://sohailminimalist.com"><SohailLogo /></a>
+                    <a href="https://github.com/ShubhamModi004/Nba_App">
+                        <div className="casestudy-visit" style={{ background: 'rgba(255,255,255, 0.14)' }}>
+                            <a href="https://github.com/ShubhamModi004/Nba_App"><h3 style={{ color: '#fff' }}>View on github</h3></a>
                         </div>
-                    </div>
+                    </a>
                 </div>
             </div>
             <div className="container boxcontainer" style={{ marginBottom: '7rem' }}>
