@@ -31,7 +31,7 @@ class IndexPage extends Component {
         return (
             (!render ?
                 <Loader>
-                    <SEO title="Contact Full Stack Developer | Bangalore | Banaglore"
+                    <SEO title="Contact Full Stack Developer | Shubham Modi"
                         keywords={[`Shubham Modi`, `Full Stack Developer`, `React Js Developer`,
                             `Mobile App Developer goa`, `Frontend Designers Goa`, `Website makers in goa`,
                             `website develoepers in goa`, `software developers in goa`, `Websites`, `Webapps`,
@@ -40,7 +40,7 @@ class IndexPage extends Component {
                 :
                 <Fade delay={100}>
                     <Layout>
-                        <SEO title="Home Full Stack Developer | Bangalore | Banaglore"
+                        <SEO title="Contact Full Stack Developer | Shubham Modi"
                             keywords={[`Shubham Modi`, `Full Stack Developer`, `React Js Developer`,
                                 `Mobile App Developer goa`, `Frontend Designers Goa`, `Website makers in goa`,
                                 `website develoepers in goa`, `software developers in goa`, `Websites`, `Webapps`,
