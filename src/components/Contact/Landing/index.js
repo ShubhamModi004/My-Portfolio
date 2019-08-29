@@ -63,7 +63,7 @@ const index = props => {
                         <div className="mobile-in" style={{ width: '1.5rem', paddingTop: '1rem', marginRight: '0.5rem' }}>
                             <Mobile />
                         </div>
-                        <a href="tel:+918975685906">8975685906</a>
+                        <a href="tel:+917020917802">7020917802</a>
                     </div>
                 </div>
             </div>
