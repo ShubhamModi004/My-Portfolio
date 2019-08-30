@@ -40,7 +40,7 @@ const Header = ({ siteTitle }) => {
             </div>
             <p className="Link">Case Studies</p>
           </Link>
-          <a href="https://drive.google.com/open?id=1NrZi1OV4e_DTz3ql8Z8Fnyoi5A13HfW9" target="_blank" className="d-flex linkWrapperCase">
+          <a href="https://drive.google.com/open?id=1NrZi1OV4e_DTz3ql8Z8Fnyoi5A13HfW9" target="_blank" className="d-flex linkWrapperDownload">
             <div style={{ width: '1.6rem' }}>
               <Resume />
             </div>
