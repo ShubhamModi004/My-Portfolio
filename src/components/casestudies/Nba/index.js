@@ -253,7 +253,7 @@ const index = props => {
                                     <Fade cascade bottom>
                                         <div>
                                             <h1 style={{ fontSize: '1.3rem', marginBottom: '0.5rem' }}>Sohail Mohammad | Personal Portfolio</h1>
-                                            <p style={{ marginBottom: '0rem', fontWeight: '100' }}>UI/UX designer from Bangalore.Specialized in User Interface & User Experience Design</p>
+                                            <p style={{ marginBottom: '0rem', fontWeight: '100' }}>UI/UX designer from Bangalore. Specialized in User Interface & User Experience Design</p>
                                         </div>
                                         <div className="read_case">
                                             <Link to={'/casestudy/Sohail'}>

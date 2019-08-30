@@ -41,7 +41,7 @@ const index = props => {
                         <div className="description">
                             <div class="details">
                                 <h1>Sohail Minimalist</h1>
-                                <p>UI/UX designer from Bangalore.Specialized in User Interface & User Experience Design</p>
+                                <p>UI/UX designer from Bangalore. Specialized in User Interface & User Experience Design</p>
                             </div>
                             <div class="details-right">
                                 <h1>Client: <span>Sohail Mohammad</span></h1>

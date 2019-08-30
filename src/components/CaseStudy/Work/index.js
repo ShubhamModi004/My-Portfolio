@@ -30,7 +30,7 @@ const index = props => {
                                 <Fade cascade bottom>
                                     <div>
                                         <h1>Sohail Mohammad | Personal Portfolio</h1>
-                                        <p>UI/UX designer from Bangalore.Specialized in User Interface & User Experience Design</p>
+                                        <p>UI/UX designer from Bangalore. Specialized in User Interface & User Experience Design</p>
                                     </div>
                                     <div className="read_case">
                                         <Link to={'/casestudy/Sohail'}>
