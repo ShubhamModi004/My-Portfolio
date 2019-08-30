@@ -54,12 +54,14 @@ const index = props => {
                         </div>
                     </Fade>
                     <Fade>
-                        <div className="casestudy-visit">
-                            <a href="https://educrateindia.com/en/"><h3>Visit the Website</h3></a>
-                            <div className="case-study-logo" style={{ width: '6.5rem' }}>
-                                <a href="https://educrateindia.com/en/"><EducrateLogo /></a>
+                        <a href="https://educrateindia.com/en/">
+                            <div className="casestudy-visit">
+                                <a href="https://educrateindia.com/en/"><h3>Visit the Website</h3></a>
+                                <div className="case-study-logo" style={{ width: '6.5rem' }}>
+                                    <a href="https://educrateindia.com/en/"><EducrateLogo /></a>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </Fade>
                 </div>
             </div>
@@ -235,12 +237,14 @@ const index = props => {
                 <div className="container boxcontainer">
                     <h1>Conclusion</h1>
                     <p>Website was successfully developed meeting all the requirements.</p>
-                    <div className="casestudy-visit" style={{ background: 'rgba(255,255,255, 0.14)' }}>
-                        <a href="https://educrateindia.com/en/"><h3 style={{ color: '#fff' }}>Visit the Website</h3></a>
-                        <div className="case-study-logo" style={{ width: '6.5rem' }}>
-                            <a href="https://educrateindia.com/en/"><EducrateLogo /></a>
+                    <a href="https://educrateindia.com/en/">
+                        <div className="casestudy-visit" style={{ background: 'rgba(255,255,255, 0.14)' }}>
+                            <a href="https://educrateindia.com/en/"><h3 style={{ color: '#fff' }}>Visit the Website</h3></a>
+                            <div className="case-study-logo" style={{ width: '6.5rem' }}>
+                                <a href="https://educrateindia.com/en/"><EducrateLogo /></a>
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
             </div>
             <div className="container boxcontainer" style={{ marginBottom: '7rem' }}>

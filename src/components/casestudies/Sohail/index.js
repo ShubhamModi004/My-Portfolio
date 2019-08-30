@@ -50,12 +50,14 @@ const index = props => {
                         </div>
                     </Fade>
                     <Fade>
-                        <div className="casestudy-visit">
-                            <a href="https://sohailminimalist.com"><h3>Visit the Website</h3></a>
-                            <div className="case-study-logo">
-                                <a href="https://sohailminimalist.com"><SohailLogo /></a>
+                        <a href="https://sohailminimalist.com">
+                            <div className="casestudy-visit">
+                                <a href="https://sohailminimalist.com"><h3>Visit the Website</h3></a>
+                                <div className="case-study-logo">
+                                    <a href="https://sohailminimalist.com"><SohailLogo /></a>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </Fade>
                 </div>
             </div>
@@ -64,12 +66,12 @@ const index = props => {
                     <Fade><h1>What was required</h1></Fade>
                     <Fade><p>
                         Development of a minimalist designed personal portfolio, to write blogs and share work experiences.
-                        design language to be followed precisely based on the ui and ux designed, with minimal load times between pages
+                        Design language to be followed precisely based on the ui and ux designed, with minimal load times between pages
                         and animations.
                     </p></Fade>
                     <Fade><h1>Problem Statement - Target Audience - My Solution</h1></Fade>
                     <Fade><p>
-                        Deadline was strict as the site had to be done in a weeks time for my client's interview.
+                        Deadline was strict as the site had to be done in a week's time for my client's interview.
                         Site had be developed with perfection in mind managing the design language without outlawing the development rules.<br />
                         Target audience were tech companies and businesses looking for branding and aesthetic design language.<br />
                         I used to Gatsby Js a react library for development of the website, made use of service workers to reduce the load times to achieve smooth transitions and animations.
@@ -174,12 +176,14 @@ const index = props => {
                 <div className="container boxcontainer">
                     <h1>Conclusion</h1>
                     <p>Website was successfully developed meeting all the requirements.</p>
-                    <div className="casestudy-visit" style={{ background: 'rgba(255,255,255, 0.14)' }}>
-                        <a href="https://sohailminimalist.com"><h3 style={{ color: '#fff' }}>Visit the Website</h3></a>
-                        <div className="case-study-logo">
-                            <a href="https://sohailminimalist.com"><SohailLogo /></a>
+                    <a href="https://sohailminimalist.com">
+                        <div className="casestudy-visit" style={{ background: 'rgba(255,255,255, 0.14)' }}>
+                            <a href="https://sohailminimalist.com"><h3 style={{ color: '#fff' }}>Visit the Website</h3></a>
+                            <div className="case-study-logo">
+                                <a href="https://sohailminimalist.com"><SohailLogo /></a>
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
             </div>
             <div className="container boxcontainer" style={{ marginBottom: '7rem' }}>
