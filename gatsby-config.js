@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Full Stack Developer`,
+    title: `CodewithShubham`,
     description: `Personal portfolio showing my passion for tiny bits of code`,
     author: `@ShubhamModi`,
   },
@@ -18,7 +18,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `full-stack-developer`,
+        name: `CodewithShubham`,
         short_name: `fullStack`,
         start_url: `/`,
         background_color: `#200D44`,
