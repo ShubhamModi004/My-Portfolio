@@ -74,7 +74,7 @@ const index = props => {
                     <Fade><p>
                         Expected ui design was hard to develop and animations asked were difficult to achieve, the site was done with lots of iterations in design and functionalities.
                         <br /><br />
-                        Target Audience were clients looking for marketing agencies to brand, promote, market their products and design a business plan.
+                        Target Audience were clients looking for marketing agencies to brand, promote, market their products and design a business model.
                         <br /><br />
                         I used HTML5, CSS3, Javascript , Jquery for development of the frontend of the website and Laravel on OctoberCMS platfrom for the backend of the website.
                         For styling I used Bootstrap framework. Animations were achieved using Javascript.
