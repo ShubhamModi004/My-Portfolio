@@ -197,3 +197,7 @@
 .projectContainer .read_line{
     height: 3px !important;
 }
+
+.projectContainer .concept-five{
+    height: 1.2rem;
+}
