@@ -112,8 +112,8 @@ const index = props => {
             <div style={{ backgroundColor: '#200e44' }}>
                 <div className="boxcontainer" style={{
                     backgroundColor: '#F7F6F9',
-                    paddingTop: '3rem',
-                    paddingBottom: '3rem',
+                    paddingTop: '6rem',
+                    paddingBottom: '6rem',
                     borderTopLeftRadius: '4rem',
                     borderTopRightRadius: '4rem',
                 }}>
