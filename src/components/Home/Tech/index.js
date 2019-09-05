@@ -144,17 +144,19 @@ const index = props => {
                         </Fade>
                     </div>
                 </div>
-                <div className="tech-stack">
-                    <Fade delay={800}><h2>My Stack of Tech</h2></Fade>
-                    <div className="stack">
-                        <Fade delay={1000}><h1 onClick={() => selectStack('frontend')} className={frontend && 'active'}>Front-End</h1></Fade>
-                        <Fade delay={1000}><h1 onClick={() => selectStack('backend')} className={backend && 'active'}>Back-End</h1></Fade>
-                        <Fade delay={1000}><h1 onClick={() => selectStack('framework')} className={framework && 'active'}>Framework</h1></Fade>
-                        <Fade delay={1000}><h1 onClick={() => selectStack('platform')} className={platform && 'active'}>Platform</h1></Fade>
-                        <Fade delay={1000}><h1 onClick={() => selectStack('dbms')} className={dbms && 'active'}>DBMS</h1></Fade>
+                <Fade delay={1000}>
+                    <div className="tech-stack">
+                        <h2>My Stack of Tech</h2>
+                        <div className="stack">
+                            <h1 onClick={() => selectStack('frontend')} className={frontend && 'active'}>Front-End</h1>
+                            <h1 onClick={() => selectStack('backend')} className={backend && 'active'}>Back-End</h1>
+                            <h1 onClick={() => selectStack('framework')} className={framework && 'active'}>Framework</h1>
+                            <h1 onClick={() => selectStack('platform')} className={platform && 'active'}>Platform</h1>
+                            <h1 onClick={() => selectStack('dbms')} className={dbms && 'active'}>DBMS</h1>
+                        </div>
+                        {renderStack()}
                     </div>
-                    {renderStack()}
-                </div>
+                </Fade>
             </div>
         </div>
     )

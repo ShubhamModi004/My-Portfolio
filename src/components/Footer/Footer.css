@@ -139,3 +139,61 @@
     cursor: pointer;
     color: #fff !important;
 }
+
+.mini-projects{
+    min-height: 20rem;
+    padding-bottom: 5rem;
+}
+.mini-projects h2{
+    color: #fff;
+    text-align: center;
+    padding: 5rem 0 2rem 0;
+    
+}
+
+
+.projectContainer{
+    background: #fff;
+    border-radius: 1rem;
+    height: 22rem;
+    padding: 4rem 2rem;
+    margin: 1rem 0;
+}
+
+@media only screen and (max-width: 767px){
+    .projectContainer{
+        height: 90%;
+        margin: 1rem auto;
+        width: 400px;
+    }
+}
+
+@media only screen and (max-width: 420px){
+    .projectContainer{
+        height: 90%;
+        margin: 1rem auto;
+        width: 99%;
+    }
+}
+
+.projectContainer h1{
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    font-weight: 200;
+    color: #200E44;
+}
+
+.projectContainer p{
+    font-size: 0.9rem;
+    font-weight: 200;
+    color: #594D70;
+    margin: 1.4rem 0;
+}
+
+.projectContainer .char{
+    font-size: 0.9rem !important;
+}
+
+.projectContainer .read_line{
+    height: 3px !important;
+}
