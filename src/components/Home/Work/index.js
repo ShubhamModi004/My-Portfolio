@@ -12,7 +12,7 @@ import EducrateWork from '../../common/casestudy/Educrate/EducrateWork';
 import NbaHeader from '../../common/casestudy/Nba/NbaHeader';
 import GBHeader from '../../common/casestudy/Gubblebums/GBHeader';
 
-const index = props => {
+const Work = props => {
     return (
         <div
             className="container boxcontainer"
@@ -146,4 +146,4 @@ const index = props => {
 }
 
 
-export default index;
+export default Work;

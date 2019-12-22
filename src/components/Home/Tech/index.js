@@ -16,7 +16,7 @@ import Backend from './Backend';
 import Platform from './Platform';
 import DBMS from './DBMS';
 
-const index = props => {
+const Tech = props => {
     const [framework, setFramework] = useState(false);
     const [frontend, setFrontend] = useState(true);
     const [backend, setBackend] = useState(false);
@@ -173,4 +173,4 @@ const styles = ({
 })
 
 
-export default index
+export default Tech

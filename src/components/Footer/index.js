@@ -149,6 +149,8 @@ const index = props => {
             </div>
             <div className="footer-end">
                 <h7>Designed by <a href="https://sohailminimalist.com">Sohail Mohammad</a></h7>
+                <br></br>
+                <h7><a href="https://www.twine.fm/Shubham004">.</a></h7>
             </div>
         </div>
     )
